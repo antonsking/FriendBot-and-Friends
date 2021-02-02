@@ -1,3 +1,4 @@
+(https://static.thenounproject.com/png/415507-200.png)
 # FriendBot and Friends
 
 A package of Instagram bots that interact with a target audience naturally, to efficiently and effectively return followers.

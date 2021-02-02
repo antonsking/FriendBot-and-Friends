@@ -10,10 +10,15 @@ Python 3.9
 Mozilla Firefox
 
 ->Mac
+
   pip install: 
+  
     instapy
+    
     caffeine
+    
 ->Windows
+
   Coming Soon
 
 ### Requirements to begin

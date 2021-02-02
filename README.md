@@ -1,3 +1,4 @@
+![Image of FriendBot]
 (https://static.thenounproject.com/png/415507-200.png)
 # FriendBot and Friends
 

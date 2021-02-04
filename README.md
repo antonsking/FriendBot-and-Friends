@@ -6,12 +6,18 @@ A package of Instagram bots that interact with a target audience naturally, to e
 ## Downloads
 
 Please install Mozilla Firefox ( https://www.mozilla.org/ )
-
-.exe coming very soon.
+Please install Python 3.9 ( https://www.python.org/ )
+.exe and .app coming very soon.
 
 ->Mac
-  Download application here: 
-    *Only Friendbot is included currently
+  Open the application "Terminal" and type these two commands:
+```
+pip install caffeine
+pip install instapy
+```
+  Download application here: https://bit.ly/2MUWklg 
+  Once downloaded, simply open the zip, and double click the enclosed file "FriendBot" or "InstaBotApp.command"
+  *Only Friendbot is included currently
     
 ->Windows
   Coming Soon

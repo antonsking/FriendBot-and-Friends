@@ -7,7 +7,7 @@ A package of Instagram bots that interact with a target audience naturally, to e
 
 Please install Mozilla Firefox ( https://www.mozilla.org/ )
 
-Please install Python 3.9 ( https://www.python.org/ )
+Please install Python 3.9 ( https://www.python.org/ ) and enable PATH
 
 .exe and .app coming very soon.
 

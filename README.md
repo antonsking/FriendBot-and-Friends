@@ -1,4 +1,4 @@
-![alt text](https://github.com/antonsking/FriendBot-and-Friends/blob/main/botlogo.jpg?raw=true)
+![alt text](https://github.com/antonsking/FriendBot-and-Friends/blob/main/icn.png.png?raw=true)
 # FriendBot and Friends
 
 A package of Instagram bots that interact with a target audience naturally, to efficiently and effectively return real and engaging followers. These include Friendbot (Released), Likebot(In testing), and Unfollowbot(Functionally completed).

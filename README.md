@@ -1,9 +1,20 @@
 # FriendBot and Friends
 
-A package of Instagram bots that interact with a target audience naturally, to efficiently and effectively return real and engaging followers. These include Friendbot, Likebot, and Unfollowbot.
+A package of Instagram bots that interact with a target audience naturally, to efficiently and effectively return real and engaging followers. These include Friendbot (Released), Likebot(In testing), and Unfollowbot(Functionally completed).
 
 
-## Downloads
+## How it Works
+
+FriendBot performs social interactions on users posts. You supply FriendBot with other Instagram accounts that are similar in style to yours, and it will interact personally with their followers. These interactions consist of a follow, then 3-5 verious interactions on their posts. These interactions include likes as well as comments. In practice, depending on the time of day, one can expect to see many followers every hour, many of which like and comment on your posts as well. 
+
+FriendBot will not interact with a user if they have too many followers, or if they are following too many people. This is to make sure users that are interacted with are the type that will return the follow. Furthermore, if thier post has too many likes or comments, FriendBot will skip it, as this interaction is less meaningful to the user. FriendBot also scanns their profile, and makes sure they post and have followers, to ensure they are not bot accounts. FriendBot will also skip business accounts. 
+
+This is what separates FriendBot from other bots. Most Instagram bots return fake followers, which do not interact with your posts, leaving you with a high follower count and low post interactions. The followers that FriendBot returns are active, engaging, and most importantly real. 
+
+To ensure your account doesnt get flagged, almost every metric within the settings of FriendBot is randomised constantly. Once FriendBot reaches the target interactions per hour, it will sleep until it can begin again. This results in about 15 interactions per hour, which is low enough for Instagram to not recognise it. 
+
+
+## Downloads and Dependencies
 
 Please install Mozilla Firefox ( https://www.mozilla.org/ )
 
@@ -20,7 +31,7 @@ pip install caffeine
 pip install instapy
 ```
 
-  Download application here: https://bit.ly/2MUWklg 
+  Download FriendBot here: https://bit.ly/2MUWklg 
   
   Once downloaded, simply open the zip, and double click the enclosed file "FriendBot" or "InstaBotApp.command"
   

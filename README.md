@@ -28,8 +28,8 @@ Please install Python 3.9 ( https://www.python.org/ ) and enable PATH
   Open the application "Terminal" and type these two commands:
   
 ```
-pip install caffeine
-pip install instapy
+pip3 install caffeine
+pip3 install instapy
 ```
 
   Download FriendBot here: https://bit.ly/2MUWklg 

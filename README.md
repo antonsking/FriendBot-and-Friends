@@ -5,7 +5,7 @@ A package of Instagram bots that interact with a target audience naturally, to e
 
 ## How it Works
 
-FriendBot performs social interactions on users posts. You supply FriendBot with other Instagram accounts that are similar in style to yours, and it will interact personally with their followers. These interactions consist of a follow, then 3-5 verious interactions on their posts. These interactions include likes as well as comments. In practice, depending on the time of day, one can expect to see many followers every hour, many of which like and comment on your posts as well. 
+FriendBot performs social interactions on users posts. You supply FriendBot with other Instagram accounts that are similar in style to yours, and it will interact personally with their followers. These interactions consist of a follow, then 3-5 verious interactions on their posts. After 24 hours, nonfollowers are unfollowed, and after 48, all followers are. These interactions include likes as well as comments. In practice, depending on the time of day, one can expect to see many followers every hour, many of which like and comment on your posts as well. 
 
 FriendBot will not interact with a user if they have too many followers, or if they are following too many people. This is to make sure users that are interacted with are the type that will return the follow. Furthermore, if thier post has too many likes or comments, FriendBot will skip it, as this interaction is less meaningful to the user. FriendBot also scanns their profile, and makes sure they post and have followers, to ensure they are not bot accounts. FriendBot will also skip business accounts. 
 

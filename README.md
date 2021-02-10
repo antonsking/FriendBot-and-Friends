@@ -11,7 +11,7 @@ FriendBot will not interact with a user if they have too many followers, or if t
 
 This is what separates FriendBot from other bots. Most Instagram bots return fake followers, which do not interact with your posts, leaving you with a high follower count and low post interactions. The followers that FriendBot returns are active, engaging, and most importantly- real. 
 
-To ensure your account doesnt get flagged, almost every value within the settings of FriendBot is randomised constantly. Once FriendBot reaches the target interactions per hour, it will sleep until it can begin again. This results in about 15 interactions per hour, which is low enough for Instagram to not recognise it. 
+To ensure your account doesnt get flagged, almost every value within the settings of FriendBot is randomized constantly. Once FriendBot reaches the target interactions per hour, it will sleep until it can begin again. This results in about 15 interactions per hour, which is low enough for Instagram to not recognise it. 
 
 
 ## Downloads and Dependencies

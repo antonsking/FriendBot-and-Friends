@@ -46,7 +46,15 @@ pip install instapy
   
  Extract the zip anywhere, right click the enclosed ".command" file, and select "Open"
   
+ ***Known Issues***
+ 
+1. If username or password are entered incorrectly, you will get an error mentioning that you "dont have enough comments." Check your username and password correctness and restart the app. 
 
+2. If you recieve an error that mentions "Your account may be blocked from liking/following" it is incorrect, it is simply an InstaPy error. Open Finder, click on your home directory, and navigate to InstaPy/logs and delete all contents in this folder. Do not delete the folder. The full directory structure is: 
+
+``` [Your home folder]/InstaPy/Logs ```
+ 
+ 
 ## Built With
 
 * [InstaPy](https://instapy.org/) - A Selenium powered web scraper 

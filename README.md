@@ -4,7 +4,11 @@
 A package of Instagram bots that interact with a target audience naturally, to efficiently and effectively return real and engaging followers. These include FriendBot, LikeBot, and UnfollowBot.
 
 ## Video Tutorial
-https://youtu.be/wcFjy69-1Y8
+FriendBot: Video Coming Soon
+
+LikeBot: Video and Download Link Coming Soon
+
+UnfollowBot: https://youtu.be/wcFjy69-1Y8
 
 ## How it Works
 

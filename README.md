@@ -23,25 +23,19 @@ Please install Mozilla Firefox ( https://www.mozilla.org/ )
 
 Please install Python 3.9 ( https://www.python.org/ ) and enable PATH
 
-->Mac
-
-  Open the application "Terminal" and type these two commands:
+***IMPORTANT*** 
+ Make sure your default Python version is 3.9 or above. Macs come default with 2.7, and this will not work. 
+ Open the application "Terminal" and type these two commands:
   
 ```
-pip3 install caffeine
-pip3 install instapy
+pip install caffeine
+pip install instapy
 ```
 
-  Download FriendBot here: https://bit.ly/2MUWklg 
+ Download FriendBot here: https://bit.ly/2MUWklg 
   
-  Extract the zip, and double click the enclosed "FriendBot" file
+ Extract the zip, rightclick the enclosed "InstaBotApp.command" file, and select "Open"
   
-  *Only Friendbot is included currently
-    
-->Windows
-
-  Coming Soon
-
 
 ## Built With
 

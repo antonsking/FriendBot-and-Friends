@@ -6,9 +6,12 @@ import caffeine
 if __name__ == "__main__":
 
     root= tk.Tk()
-    canvas1 = tk.Canvas(root, width = 700, height = 430)
+    root.title("FriendBot")
+    canvas1 = tk.Canvas(root, width = 700, height = 100)
     canvas1.pack()
     
+    image = tk.PhotoImage(file="bicn.gif")
+    tk.Label(root, image=image).pack()
     
     L1 = tk.Label(root, text="User Name:")
     L1.pack()
@@ -52,12 +55,12 @@ if __name__ == "__main__":
         return([username,password,accounts.split(",")])
 
 
-    button1 = tk.Button(text='Enter Instagram credentials below, then click here to begin.',height=10,width=50,
+    button1 = tk.Button(text='Enter Instagram credentials, then click here to begin.',height=10,width=50,
                         font='helvetica',activebackground='green',relief='ridge',activeforeground='red',
                         bd=30,highlightcolor='red',command=botting, bg='peach puff',fg='dark slate gray')
 
-    
-    canvas1.create_window(350, 290, window=button1)
+    button1.pack()
+
     root.mainloop()
 
 

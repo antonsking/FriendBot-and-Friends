@@ -1,16 +1,4 @@
 
-    ####################################################################################
-    #
-    #               _____ ______ _______ _______ _____ _   _  _____  _____ 
-    #              / ____|  ____|__   __|__   __|_   _| \ | |/ ____|/ ____|
-    #             | (___ | |__     | |     | |    | | |  \| | |  __| (___  
-     #             \___ \|  __|    | |     | |    | | | . ` | | |_ |\___ \ 
-     #             ____) | |____   | |     | |   _| |_| |\  | |__| |____) |
-    #             |_____/|______|  |_|     |_|  |_____|_| \_|\_____|_____/ 
-    #
-    #
-    ####################################################################################
-
 import random
 from instapy import InstaPy
 from instapy import smart_run
@@ -26,14 +14,14 @@ def bot(creds):
     targets = creds[2]
     target_business_categories = ['art','lifestyle']
 
-    
+    del creds
     ##########          COMMENTS           #########
 
     comments = ['awesome :ok_hand: @{}',
             'solid post :thumbsup:@{}',
             'absolutely dope :thumbsup:  @{}',
             'this is great :thumbsup:',
-            ':thumbsup: very cool @{}?', 
+            ':thumbsup: very cool @{}', 
             ':thumbsup: super cool @{}',
             'this is awesome @{}',
             'quality :ok_hand: @{}',
@@ -65,26 +53,17 @@ def bot(creds):
 
 
 
-
-    ####################################################################################
-    #             
-    #              _____ ______  _____ _____ _____ ____  _   _ 
-    #              / ____|  ____|/ ____/ ____|_   _/ __ \| \ | |
-    #             | (___ | |__  | (___| (___   | || |  | |  \| |
-    #              \___ \|  __|  \___ \\___ \  | || |  | | . ` |
-    #              ____) | |____ ____) |___) |_| || |__| | |\  |
-    #             |_____/|______|_____/_____/|_____\____/|_| \_|
-    #
-    #
-    ####################################################################################
     print("\n\n CREATING SESSION \n\n")
     session = InstaPy(username=insta_username,
                       password=insta_password,
                       headless_browser=True,
                       disable_image_load=True,
-                      multi_logs=True)
+                      multi_logs=True,
+                      want_check_browser=False)
 
     with smart_run(session):
+
+        session.set_comments(comments)
 
 
     ##################################     SETTINGS     ##################################################
@@ -130,49 +109,25 @@ def bot(creds):
     ######      ENGAGEMENT       ##############################################################################
         print("\n\n SETTING \n\n")
 
-        session.set_comments(comments)
         
+
         session.set_user_interact(amount=4, randomize=True, percentage=100)
         
-        session.set_do_like(enabled=True, percentage=100)
+        session.set_do_like(enabled=True, percentage=95)
 
         session.set_do_comment(enabled=True, percentage=18)
 
         
-    ############################   TARGETED ACCOUNTS    ########################################################
-        print("\n\n TARGETING \n\n")
-        number = random.randint(5, 7)
-        random_targets = targets
-
-        if len(targets) <= number:
-            random_targets = targets
-
-        else:
-            random_targets = random.sample(targets, number)
 
 
         #####################################    MAIN INTERACTION DRIVER    ########################################
         print("\n\n ENGAGING \n\n")
-        session.follow_user_followers(random_targets,
-                                      amount=10,
+        session.follow_user_followers(targets,
+                                      amount=13,
                                       randomize=True, sleep_delay=600,
                                       interact=True)
 
 
-    ############################   UNFOLLOWING ROUTINE   ########################################################
-        
-        # UNFOLLOW activity
-
-        session.unfollow_users(amount=random.randint(10, 150),
-                               nonFollowers=True,
-                               style="FIFO",
-                               unfollow_after= 24 * 60 * 60, sleep_delay=600)
-
-        session.unfollow_users(amount=random.randint(90, 150),
-                               allFollowing=True,
-                               style="FIFO",
-                               unfollow_after= 48 * 60 * 60, sleep_delay=600)
-        
 
         session.join_pods()
 

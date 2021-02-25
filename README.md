@@ -4,6 +4,7 @@
 
 A package of Instagram bots that interact with your target audience naturally, which returns real and engaging followers.
 
+______________________________________________________________________________________________
 
 # FriendBot v1.0 IS HERE! That means standalone Mac Application! 
 

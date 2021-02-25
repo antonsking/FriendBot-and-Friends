@@ -2,7 +2,7 @@
 
 # FriendBot and Friends
 
-A package of Instagram bots that interact with a target audience naturally, to efficiently and effectively return real and engaging followers. These include FriendBot, LikeBot, and UnfollowBot.
+A package of Instagram bots that interact with your target audience naturally, which returns real and engaging followers.
 
 
 # FriendBot v1.0 IS HERE! That means standalone Mac Application! 

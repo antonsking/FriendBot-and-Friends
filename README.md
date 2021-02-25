@@ -1,14 +1,22 @@
 ![alt text](https://github.com/antonsking/FriendBot-and-Friends/blob/main/FriendBot/icn/icn.png?raw=true)![alt text](https://github.com/antonsking/FriendBot-and-Friends/blob/main/FriendBot/icn/bicn.png?raw=true)![alt text](https://github.com/antonsking/FriendBot-and-Friends/blob/main/FriendBot/icn/icn.png?raw=true)
+
 # FriendBot and Friends
 
 A package of Instagram bots that interact with a target audience naturally, to efficiently and effectively return real and engaging followers. These include FriendBot, LikeBot, and UnfollowBot.
 
+
+# FriendBot v1.0 IS HERE! That means standalone Mac Application! 
+
+### Download [HERE](https://github.com/antonsking/FriendBot-and-Friends/raw/main/FriendBot.zip)
+
+
 ## Video Tutorial
-FriendBot: Video Coming Soon
+[FriendBot](https://youtu.be/KgBKQCPgGgI) (Development Version)
 
-LikeBot: Video and Download Link Coming Soon
+LikeBot: In Development
 
-UnfollowBot: https://youtu.be/wcFjy69-1Y8
+[UnfollowBot](https://youtu.be/wcFjy69-1Y8) (Development Version)
+
 
 ## How it Works
 
@@ -20,35 +28,12 @@ To ensure your account doesnt get flagged, almost every parameter within the sou
 
 UnfollowBot can be run once your follower count reaches around 200. It will time the follows exactly so that your account will not get flagged, and you maximise unfollow efficiency. It will begin with non-followers, and if left running for a long time, will begin to unfollow everyone. 
 
-
-## Downloads and Dependencies
-
-### .exe and .app coming soon
-
-Please install Mozilla Firefox ( https://www.mozilla.org/ )
-
-Please install Python 3.9 ( https://www.python.org/ ) and enable PATH
-
-***IMPORTANT*** 
- Make sure your default Python version is 3.9 or above. Macs have default 2.7, and this ***will not work.***
- 
- Once confirmed with ```python --version```, open the application "Terminal" and enter these two commands:
   
-```
-pip install caffeine
-pip install instapy
-```
-
- Download FriendBot here: https://github.com/antonsking/FriendBot-and-Friends/raw/main/FriendBot.zip 
- 
- Download UnfollowBot here: https://github.com/antonsking/FriendBot-and-Friends/raw/main/UnfollowBot.zip
-  
- Extract the zip anywhere, right click the enclosed ".command" file, and select "Open"
-  
-
 ## Built With
 
-* [InstaPy](https://instapy.org/) - A Selenium powered web scraper 
+* [Selenium](https://www.selenium.dev/) - Web Scraping
+* [cx-Freeze](https://cx-freeze.readthedocs.io/en/latest/) - Redistributables 
+* [InstaPy](https://instapy.org/) - Instagram Functionality 
 * [tkinter](https://docs.python.org/3/library/tkinter.html) - GUI
 * [Caffeine](https://pypi.org/project/caffeine/) - To stay awake
 

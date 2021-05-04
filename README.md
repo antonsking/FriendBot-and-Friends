@@ -12,11 +12,8 @@ ________________________________________________________________________________
 
 
 ## Video Tutorial
-[FriendBot](https://youtu.be/KgBKQCPgGgI) (Development Version)
+[FriendBot](https://youtu.be/KgBKQCPgGgI) 
 
-LikeBot: In Development
-
-[UnfollowBot](https://youtu.be/wcFjy69-1Y8) (Development Version)
 
 
 ## How it Works
